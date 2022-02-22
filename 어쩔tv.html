@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>어쩔TV</title>
+<style>
+	@import url(contents/스타일.css);
+	div { padding-top: 200px; 
+		font-size: 19px} 
+
+	#t3 { z-index:2;
+		animation-name: t3;
+		animation-duration: 1s; }
+	#t2 { z-index:1;
+		animation-name: t2;
+		animation-duration: 1s; }		
+	#t1 { z-index:0;
+		animation-name: t1;
+		animation-duration: 1s; }
+
+	@keyframes t1 { from {transform: translate(0px,-600px)}
+		to {transform: translate(0px,0px)} }
+	@keyframes t2 { from {transform: translate(0px,-500px)}
+		to {transform: translate(0px,0px)} }
+	@keyframes t3 { from {transform: translate(0px,-400px)}
+		to {transform: translate(0px,0px)} }
+
+	h1 { transition: all 1s; }
+	h1:hover { color:white; }
+
+</style>
+	
+	<script src="검색.js"></script>
+
+</head>
+<body link="darkblue" vlink="darkblue">
+<br><br><br>
+	<h1 id="t3" onclick='window.open("어쩔TV.html","_parent");'>어쩔TV</h1>
+
+<br><br>
+		<form id="t2" name="data" method="get" onmouseover="first();list()">
+		TAG : <input id="s" type="text" list="search">
+		<input id="b" onclick="search()" type="submit" value="검색">
+		<br>
+
+		<datalist id="search"></datalist>
+
+		</form>
+	<div align="center" id="t1">
+		<a href="https://www.youtube.com/">뿌쓩빠쓩</a>
+	</div>
+
+</body>
+</html>

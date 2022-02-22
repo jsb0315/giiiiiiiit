@@ -1,0 +1,70 @@
+hr { height: 2px; border: none; background-color:silver;  }
+	h2 { font-size: 42px; 
+		margin: 7px; }
+	form { font-size: 26px; }
+	#s { width: 170px;
+		height: 20px;
+		border-radius : 5px;		/*검색창 디자인*/
+		padding: 7px 7px 0px 7px;
+		border-color: red; }
+	#b { font-size: 17px;
+		background-color: lightgray;
+		padding: 8px 7px 3px 7px;	/*검색버튼 디자인*/
+		border-color: lightgray;
+		border-radius : 5px;
+		border:none; }
+	div#inline div { display: inline-block; } /*검색창 인라인 블럭*/
+	#pad { padding: 0px 0px 0px 10px }	/*검색창 패딩*/
+
+	#gray { padding: 20px 100px 20px 30px;
+			text-align: left;
+			background-color: whitesmoke;	/*기본예제 div*/
+			border-radius: 7px;
+			border: none; }
+	section #gray { margin: 0px 100px 0px 0px;
+					border: 2px solid black; }
+
+	iframe { width: 425px;
+			height: 150px;
+			border-radius: 5px;
+			border: 2px solid black; }		/*기본예제 iframe*/
+
+	pre { margin-right: 0px; }
+
+	aside #gray { padding: 20px 0px 60px 20px;
+				font-size: 17px;
+				background: lightgray; }		/*바로가기*/
+
+	nav { float: left;	/*왼쪽구성*/
+		width:20%; }
+	aside { float: right;	/*오른쪽구성*/
+		width:17%; 
+		padding: 20px;
+		position : fixed;
+		right : 0px; }
+	section { float: left;
+	padding: 20px;
+	width: 55%; }	/*내용*/
+
+	#tagname { font-size: 35px;
+		text-align: center;			/*태그 이름*/
+		padding: 25px; }
+	#reltag { font-size: 17px;
+		padding: 1px 0px 30px 20px;	/*관련 태그*/
+		background : lightgray;
+		border-radius : 9px; }
+
+	#side { padding: 0px 0px 0px 0px; }
+	#side li { display : inline-block;
+			list-style-type : none;		/*관련태그/바로가기*/
+			padding: 2px; }				/*메뉴처럼 디자인*/
+	#side a { text-decoration : none;
+			color : black; 
+			transition: color 0.3s;}
+	#side a:hover { color : slateblue; }
+	
+
+	strong { font-size: 21px; }		/*내용 제목 강조*/
+	#cont li { font-size: 19px; }
+
+	dt { padding: 4px; }
